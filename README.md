@@ -1,5 +1,11 @@
 # iTunes App Store Feedback Scraper
 
+Install with pip:
+
+```
+pip install git+git://github.com/allawi/itunes-feedback-scraper.git@v1.0.0
+```
+
 Import it as a module
 
 ```
@@ -9,7 +15,7 @@ from iscraper import iTunesScraper
 run it with
 
 ```
-iTunesScraper.get_reviews(app_id, country=None)
+iTunesScraper.get_reviews(app_id, [country])
 ```
 
 where `app_id` is the ID of the app you wish to scrape and country is which country to scrape the feedback from.
