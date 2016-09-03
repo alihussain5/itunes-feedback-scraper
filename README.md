@@ -1,6 +1,12 @@
 # iTunes App Store Feedback Scraper
 
-Import it as a module, run it with
+Import it as a module
+
+```
+from iscraper import iTunesScraper
+```
+
+run it with
 
 ```
 iTunesScraper.get_reviews(app_id, country=None)
