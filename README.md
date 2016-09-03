@@ -21,7 +21,7 @@ iTunesScraper.get_reviews(app_id, [country])
 where `app_id` is the ID of the app you wish to scrape and country is which country to scrape the feedback from.
 Not providing a country will default to returning a `dict` of all countries and their feedback.
 
-The return value is
+The return value is a `list` (or `dict` of `lists`) of `dicts` with the following format:
 
 ```
 {
